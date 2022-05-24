@@ -1,5 +1,5 @@
-# Embedded-os
-Embedded operating system
+# Embedded OS Assignment
+
 ## Day 1
 
 - 2 Tier and 3 Tier Embedded Systems
@@ -22,3 +22,13 @@ Embedded operating system
 - How are arguments passed to the function
   - Stack
   - Registers
+
+## Day 2
+
+- Booting procedure
+
+  - ROM BL
+  - PBL
+  - SBL (Uboot)
+  - Kernel (Linux)
+  - RFS (Buildroot)
