@@ -32,3 +32,100 @@
   - SBL (Uboot)
   - Kernel (Linux)
   - RFS (Buildroot)
+
+## Day 3 and 4
+
+- Makefile
+- Toolchain
+
+  - Build System
+  - Host System
+  - Target System
+
+- Program
+
+  - Program Sections
+    - Text
+    - Data
+    - BSS
+    - Heap
+    - Stack
+
+- Address Space
+
+- Program vs Process
+
+  - Program
+    - Executable// Binary
+    - Compiled
+    - Dormant
+  - Process
+    - Thread
+    - Process / Program under execution
+    - Active
+
+- OS
+
+  - Process Management
+  - Memory Management
+  - I/O Management
+    - Device Drivers
+    - File System
+    - Networking
+    - GUI
+
+- Kernel Mode vs User Mode
+
+  - Kernel Mode aka Supervisor Mode
+    - Kernel Space
+    - Kernel Heap
+    - Kernel Stack
+  - User Mode
+    - User Space
+    - User Heap
+    - User Stack
+
+- Process ID (PID)
+
+  - getpid()
+
+- Man
+
+  - man -k pid
+  - man 2 getpid
+
+- Process Control Block (PCB)
+
+  - PID
+  - Base Address of the Process
+  - Size of the Address space
+
+- Library Calls
+- System Calls
+
+- strace
+
+- Differentiated between library and system call
+
+- Shell
+
+  - Command Line
+  - Parsing
+  - Built-in Commands
+  - Shell Scripts
+
+- Users and Groups
+
+  - Users
+    - User ID
+    - Group ID
+    - User Name
+    - Group Name
+    - Home Directory
+    - Shell
+  - Groups
+    - Group ID
+    - Group Name
+    - Group Members
+
+- Superuser
