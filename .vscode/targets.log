@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** Makefile: Is a directory.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** Makefile: Is a directory.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue May 31 17:44:00 2022
+# Make data base, printed on Tue May 31 19:21:23 2022
 
 # Variables
 
@@ -145,13 +143,16 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
+ 
+make: *** Makefile: Is a directory.  Stop.
+
 QT_IM_MODULE = ibus
 # environment
 SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-269db8aa-68f6-463b-abf3-08e177f99b02.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-368ecac0-f138-4032-add6-8fa6c3b1191e.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -195,11 +196,11 @@ LC_ALL = C
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/8bb984e2_8f1c_4db3_ab5a_71481f8efdd6
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/591dd72d_43f0_44fa_bf88_9a497b348bb4
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.2215
+GNOME_TERMINAL_SERVICE = :1.7851
 # default
 SUFFIXES := 
 # environment
@@ -217,7 +218,7 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 218966
+VSCODE_PID = 363739
 # variable set hash-table stats:
 # Load=103/1024=10%, Rehash=0, Collisions=12/116=10%
 
@@ -270,6 +271,6 @@ Makefile:
 # strcache performance: lookups = 25 / hit rate = 16%
 # hash-table stats:
 # Load=21/8192=0%, Rehash=0, Collisions=1/25=4%
-# Finished Make data base on Tue May 31 17:44:00 2022
+# Finished Make data base on Tue May 31 19:21:23 2022
 
  
