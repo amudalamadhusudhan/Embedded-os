@@ -8,7 +8,7 @@ make: *** Makefile: Is a directory.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue May 31 11:59:51 2022
+# Make data base, printed on Tue May 31 17:44:00 2022
 
 # Variables
 
@@ -227,9 +227,9 @@ VSCODE_PID = 218966
 
 # Directories
 
-# . (device 2053, inode 7476334): 15 files, no impossibilities.
+# . (device 2053, inode 7476334): 16 files, no impossibilities.
 
-# 15 files, no impossibilities in 1 directories.
+# 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -264,12 +264,12 @@ Makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 20 / storage = 198 B / avg = 9 B
-# current buf: size = 8162 B / used = 198 B / count = 20 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 21 / storage = 207 B / avg = 9 B
+# current buf: size = 8162 B / used = 207 B / count = 21 / avg = 9 B
 
-# strcache performance: lookups = 24 / hit rate = 16%
+# strcache performance: lookups = 25 / hit rate = 16%
 # hash-table stats:
-# Load=20/8192=0%, Rehash=0, Collisions=1/24=4%
-# Finished Make data base on Tue May 31 11:59:51 2022
+# Load=21/8192=0%, Rehash=0, Collisions=1/25=4%
+# Finished Make data base on Tue May 31 17:44:00 2022
 
  
