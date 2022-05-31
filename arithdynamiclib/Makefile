@@ -1,6 +1,7 @@
  cc=gcc
-libarith.a: add.o sub.o mul.o div.o
-	ar cvr -o libarith.a add.o sub.o mul.o div.o
+
+libarith..so: add.o sub.o mul.o div.o
+	$(cc) -shared -fPIC add.o sub.o mul.o div.o -o libarith.so
 arithout: main.o add.o sub.o mul.o div.o
 	$(cc) add.o main.o sub.o mul.o div.o -o arithout	
 main.o: main.c

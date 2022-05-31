@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/madhusudhan/Desktop/Embedded-os/arithstaticlib'
+make: 'arithout' is up to date.
+make: Leaving directory '/home/madhusudhan/Desktop/Embedded-os/arithstaticlib'
+ 
