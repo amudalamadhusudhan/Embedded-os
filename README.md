@@ -129,3 +129,49 @@
     - Group Members
 
 - Superuser
+
+## Day 4
+
+- Library
+
+  - Static Libraries
+    - .a
+  - Dynamic Libraries aka Shared Object Libraries
+
+    - Windows => .dll
+    - Linux => .so
+
+  - Standard Library
+    - GCC -> libc.a / libc.so
+    - Bundled as part of the compiler /toolchain
+    - ANSI
+    - eg. printf, strcpy, strlen, scanf, fopen
+  - User Library/ Third Party Library
+    - App Developer
+    - eg. Your own arith functionality, mp3 decoding library
+
+- Archive command to create and extract libraries
+
+  - ar crv
+  - ar x
+
+- Assignment (Both: Static and Shared Object):
+
+  - Repeat the demo shown in the class
+  - Enhance the library to add mul and div functions
+  - Update the library and send it to your friend to use it
+
+- Syscalls
+  - open, write and close
+  - File Descriptors (fd)
+  - Assignment: 1
+    - Create a file
+    - Write to the file
+    - Close the file
+  - Assignment: 2
+    - Create a file
+    - Read from the file
+    - Print it on screen
+    - Close the file
+  - Explore
+    - Return values for read and write system calls
