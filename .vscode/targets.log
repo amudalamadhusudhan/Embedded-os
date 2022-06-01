@@ -8,7 +8,7 @@ make: *** Makefile: Is a directory.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun  1 11:55:00 2022
+# Make data base, printed on Wed Jun  1 18:50:09 2022
 
 # Variables
 
@@ -151,7 +151,7 @@ SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-7eb8f2da-ff76-4d65-b947-35e9db4f18f3.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-216caa5c-70ea-4695-9cf8-679d7c2bb0e6.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -195,11 +195,11 @@ LC_ALL = C
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/e00d0803_e8a1_41b4_ba4b_750e99ec7bcf
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/2ba2d3d1_93a2_4c47_ba8c_a6779050c723
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.541
+GNOME_TERMINAL_SERVICE = :1.1116
 # default
 SUFFIXES := 
 # environment
@@ -217,7 +217,7 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 414917
+VSCODE_PID = 421413
 # variable set hash-table stats:
 # Load=103/1024=10%, Rehash=0, Collisions=12/116=10%
 
@@ -264,12 +264,12 @@ Makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 22 / storage = 213 B / avg = 9 B
-# current buf: size = 8162 B / used = 213 B / count = 22 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 212 B / avg = 9 B
+# current buf: size = 8162 B / used = 212 B / count = 22 / avg = 9 B
 
 # strcache performance: lookups = 26 / hit rate = 15%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=1/26=4%
-# Finished Make data base on Wed Jun  1 11:55:00 2022
+# Finished Make data base on Wed Jun  1 18:50:09 2022
 
  
