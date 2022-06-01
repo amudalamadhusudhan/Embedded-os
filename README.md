@@ -214,3 +214,31 @@
   - Running
   - Waiting/ Blocked
   - Terminated/ Exit
+## Day 6
+
+- Batch Systems
+- Multiuser Systems
+- Multiprogramming
+- Multitasking Systems
+- Multiprocessing Systems
+- Multithreading Systems
+
+- Process Scheduling
+
+  - Round Robin
+  - Priority
+  - FIFO
+  - Shortest Job First
+
+- Priority Based Scheduling
+
+  - Preemptive Scheduling
+  - Non-Preemptive Scheduling
+
+- Shortest Job First
+
+  - Preemptive Scheduling
+  - Non-Preemptive Scheduling
+
+- Response Times
+- Throughput
