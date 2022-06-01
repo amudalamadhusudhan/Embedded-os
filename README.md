@@ -242,3 +242,5 @@
 
 - Response Times
 - Throughput
+-zombie process
+-orphan process
