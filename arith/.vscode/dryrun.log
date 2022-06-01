@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/madhusudhan/Desktop/Embedded-os/arith'
+gcc -c main.c -o main.o
+gcc -c add.c -o add.o
+gcc -c sub.c -o sub.o	
+gcc add.o main.o sub.o -o arithout
+make: Leaving directory '/home/madhusudhan/Desktop/Embedded-os/arith'
+ 

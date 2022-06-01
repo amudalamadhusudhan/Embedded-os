@@ -162,6 +162,7 @@
   - Update the library and send it to your friend to use it
 
 - Syscalls
+
   - open, write and close
   - File Descriptors (fd)
   - Assignment: 1
@@ -175,3 +176,150 @@
     - Close the file
   - Explore
     - Return values for read and write system calls
+
+## Day 5
+
+- CPU (Uniprocessor)
+
+  - Physical Hardware => PC, SP, GPR, Flags
+
+- One CPU -> One Process at any given instance
+- One CPU => Multiple process
+
+- Memory
+
+  - Each process given a separate address space
+  - Address space is divided into 2 parts:
+    - Text
+    - Data
+    - BSS
+    - Heap
+    - Stack
+
+- Context
+
+  - Contents of the registers PC, SP, GPR, Flags
+  - Context Saving
+    - Physical registers to Logical Copy (in memory)
+  - Context Restoring
+    - Logical Copy to Physical registers
+  - Context Switching
+    - Save the current context
+    - Scheduling
+    - Restore0 the new context
+
+- Process State Diagram
+  - New
+  - Ready
+  - Running
+  - Waiting/ Blocked
+  - Terminated/ Exit
+
+## Day 6
+
+- Batch Systems
+- Multiuser Systems
+- Multiprogramming
+- Multitasking Systems
+- Multiprocessing Systems
+- Multithreading Systems
+
+- Process Scheduling
+
+  - Round Robin
+  - Priority
+  - FIFO
+  - Shortest Job First
+
+- Priority Based Scheduling
+
+  - Preemptive Scheduling
+  - Non-Preemptive Scheduling
+
+- Shortest Job First
+
+  - Preemptive Scheduling
+  - Non-Preemptive Scheduling
+
+- Response Times
+- Throughput
+
+# Day 7
+
+- Fork
+
+  - Zombie Processes
+  - Orphan Processes
+  - Child inherits file descriptors from the parent
+
+- Interprocess Communication
+  - Pipes
+    - Unidrectional
+    - Related processes
+    - Data is Sequential
+    - pipe, read, write, close
+  - FIFO aka Named Pipes
+    - Unidirectional
+    - Unrelated processes
+    - Data is Sequential
+    - open, read, wirte, close
+
+# Assignment
+
+1. Write your own utility using system calls (open, read, write, close) to copy data from one file to another file. Essentially you are implementing a copy utility. Fullfledged utility should support the following options:
+
+- Handling all the errors
+- cp srcfile destfile
+
+2. Write your own utility using library calls (fopen, fread, fwrite, fclose) to copy data from one file to another file. Essentially you are implementing a copy utility. Fullfledged utility should support the following options:
+
+- Handling all the errors
+- cp srcfile destfile
+
+3. Research
+
+- Which of the following programs took more time to copy file
+  1. Small
+  2. Medium
+  3. Large
+- Justify your results => Why does system call / library call take time to copy file.
+
+# Day 8
+
+- POSIX Threads
+
+  - pthread_create
+  - pthread_join
+
+- Threads
+
+  - Joinable and Detachable
+
+- Thread Attributes
+
+  - pthread_attr_init
+  - pthread_attr_setdetachstate
+  - pthread_attr_destroy
+  - Scope
+  - Inherit Scheduling
+  - Scheduling Parameters
+  - Stack and Stack Size
+
+- Threads
+
+  - are light weight processes
+  - TCB
+  - Threads share the following sections with Process
+    - Text
+    - Data
+    - BSS
+    - Heap
+  - Threads do not share the following sections with Process
+    - Stack
+    - means that each threads has its own stack
+
+- Resource
+  - Anything that is used by a thread or a process is called a resource
+  - Shared Resource
+    - Resource that is shared between multiple threads/ processes
+    - Race Condition => Data corruption
