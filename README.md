@@ -281,3 +281,5 @@
   2. Medium
   3. Large
 - Justify your results => Why does system call / library call take time to copy file.
+ -posix threads
+ pthread_create
