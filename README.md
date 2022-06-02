@@ -248,7 +248,7 @@
   - Orphan Processes
   - Child inherits file descriptors from the parent
 
-  ##Day7##
+   **day7**
 
 - Interprocess Communication
   - Pipes
@@ -260,8 +260,8 @@
     - Unidirectional
     - Unrelated processes
     - Data is Sequential
-    - open, read, wirte, close
-Screenshot from 2022-06-02 17-29-10.png
+    - open,/home/madhusudhan/Pictures/Screenshot from 2022-06-02 17-29-10.png read, wirte, close
+     
 # Assignment
 
 1. Write your own utility using system calls (open, read, write, close) to copy data from one file to another file. Essentially you are implementing a copy utility. Fullfledged utility should support the following options:
