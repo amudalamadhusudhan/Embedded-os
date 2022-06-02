@@ -214,6 +214,7 @@
   - Running
   - Waiting/ Blocked
   - Terminated/ Exit
+
 ## Day 6
 
 - Batch Systems
@@ -242,5 +243,41 @@
 
 - Response Times
 - Throughput
--zombie process
--orphan process
+  -Fork
+  - Zombie Processes
+  - Orphan Processes
+  - Child inherits file descriptors from the parent
+
+  ##Day7##
+
+- Interprocess Communication
+  - Pipes
+    - Unidrectional
+    - Related processes
+    - Data is Sequential
+    - pipe, read, write, close
+  - FIFO aka Named Pipes
+    - Unidirectional
+    - Unrelated processes
+    - Data is Sequential
+    - open, read, wirte, close
+Screenshot from 2022-06-02 17-29-10.png
+# Assignment
+
+1. Write your own utility using system calls (open, read, write, close) to copy data from one file to another file. Essentially you are implementing a copy utility. Fullfledged utility should support the following options:
+
+- Handling all the errors
+- cp srcfile destfile
+
+2. Write your own utility using library calls (fopen, fread, fwrite, fclose) to copy data from one file to another file. Essentially you are implementing a copy utility. Fullfledged utility should support the following options:
+
+- Handling all the errors
+- cp srcfile destfile
+
+3. Research
+
+- Which of the following programs took more time to copy file
+  1. Small
+  2. Medium
+  3. Large
+- Justify your results => Why does system call / library call take time to copy file.
