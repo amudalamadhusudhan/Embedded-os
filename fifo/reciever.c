@@ -7,7 +7,7 @@
 int main(int argc, char const *argv[])
 {
 int fd;
-char s[12];
+char s[100];
 fd =open("desdfifo",O_RDONLY);
 
 read(fd,s,12);
