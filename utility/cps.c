@@ -4,7 +4,7 @@
        #include <fcntl.h>
         #include <unistd.h>
         #include <stdlib.h>
-#define size 10*10000  
+#define size 10000000
 int main(int argc,char const *argv[])
 {
 int fd,fd1;

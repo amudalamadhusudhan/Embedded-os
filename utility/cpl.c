@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define size 10*1000 
+#define size 1000000l 
 
 int main(int argc,char const *argv[])
 {
@@ -19,5 +19,5 @@ fprintf(fp1,"%s\n",buf);
 }
 fclose(fp);
 fclose(fp1);
-
+return 0;
 }
