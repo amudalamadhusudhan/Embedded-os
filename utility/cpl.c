@@ -5,6 +5,11 @@
 int main(int argc,char const *argv[])
 {
     char buf[size];
+    if (argc>3)
+{
+    printf("More then 2 files not allowed");
+    exit(EXIT_FAILURE);
+}
 FILE *fp,*fp1;
 fp=fopen(argv[1],"r");
 if(fp==NULL)
