@@ -24,7 +24,7 @@ fd=open(argv[1],O_RDONLY);
     }
 fd1=open(argv[2],O_CREAT|O_RDWR); 
 
-while(read(fd,&buf,size)!=0clea)
+while(read(fd,&buf,size)!=0)
 {
     write(fd1,&buf,size);
 }
