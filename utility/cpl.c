@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define size 1000000l 
+#define size 1000000
 
 int main(int argc,char const *argv[])
 {
