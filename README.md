@@ -310,3 +310,42 @@ using copy utility "cps" and " cpl " performing 1mb file operations
 
  -posix threads
  pthread_create
+# Day 8
+
+- POSIX Threads
+
+  - pthread_create
+  - pthread_join
+
+- Threads
+
+  - Joinable and Detachable
+
+- Thread Attributes
+
+  - pthread_attr_init
+  - pthread_attr_setdetachstate
+  - pthread_attr_destroy
+  - Scope
+  - Inherit Scheduling
+  - Scheduling Parameters
+  - Stack and Stack Size
+
+- Threads
+
+  - are light weight processes
+  - TCB
+  - Threads share the following sections with Process
+    - Text
+    - Data
+    - BSS
+    - Heap
+  - Threads do not share the following sections with Process
+    - Stack
+    - means that each threads has its own stack
+
+- Resource
+  - Anything that is used by a thread or a process is called a resource
+  - Shared Resource
+    - Resource that is shared between multiple threads/ processes
+    - Race Condition => Data corruption
