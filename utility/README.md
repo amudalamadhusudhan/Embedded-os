@@ -4,7 +4,24 @@
 using copy utility "cps" and " cpl " performing 1GB file operations
 |     buf size  |      cps      | cpl   |
 | ------------- |:-------------:| -----:|
-| 1000bytes     | 5.833second   | $1600 |
-| 1000000       |  4.041       |   $12 |
-| 1000000000    |   0.766       |    $1 |
+| 1000bytes     | 5.833second   |       |
+| 1000000       |  4.041        |       |
+| 1000000000    |   0.766       |       |
+
+
+
+using copy utility "cps" and " cpl " performing 400mb file operations
+|     buf size  |      cps      | cpl   |
+| ------------- |:-------------:| -----:|
+| 1000bytes     | 5.833second   |       |
+| 1000000       |  4.041        |       |
+| 1000000000    |   0.766       |       |
+
+using copy utility "cps" and " cpl " performing 1mb file operations
+|     buf size  |      cps      | cpl   |
+| ------------- |:-------------:| -----:|
+| 1000bytes     | 5.833second   |       |
+| 1000000       |  4.041        |       |
+| 1000000000    |   0.766       |       |
+
 
