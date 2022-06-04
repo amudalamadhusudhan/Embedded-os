@@ -4,24 +4,24 @@
 using copy utility "cps" and " cpl " performing 1GB file operations
 |     buf size  |      cps      | cpl   |
 | ------------- |:-------------:| -----:|
-| 1000bytes     | 5.833second   |3m07.9s|
-| 1000000       |  4.041        | 41.6  |
-| 1000000000    |   0.766       |0.4733 |
+| 1000bytes     | 2m14s.997s    |3m07.9s|
+| 1000000       |  7.8850s      | 41.6  |
+| 1000000000    |   0.766s      |0.4733 |
 
 
 
 using copy utility "cps" and " cpl " performing 400mb file operations
 |     buf size  |      cps      | cpl   |
 | ------------- |:-------------:| -----:|
-| 1000bytes     | 5.833second   |19.647s|
-| 1000000       |  0.741        |8.953s |
+| 1000bytes     | 5.833s        |19.647s|
+| 1000000       |  0.743s       |8.953s |
 | 1000000000    |   0.431s      |0.2533s|
 
 using copy utility "cps" and " cpl " performing 1mb file operations
 |     buf size  |      cps      | cpl   |
 | ------------- |:-------------:| -----:|
-| 1000bytes     | 5.833second   | 0.745 |
-| 1000000       |  4.041        | 0.177 |
-| 1000000000    |   0.766       | 0.427 |
+| 1000bytes     | 0.4699s       | 0.745 |
+| 1000000       |  0.003        | 0.177 |
+| 1000000000    |   0.455       | 0.427 |
 
 
