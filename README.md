@@ -349,7 +349,7 @@ using copy utility "cps" and " cpl " performing 1mb file operations
   - Shared Resource
     - Resource that is shared between multiple threads/ processes
     - Race Condition => Data corruption
-day9
+**day9**
   -mutual Exclusion
     -mutex
       -futex
