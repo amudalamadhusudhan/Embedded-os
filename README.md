@@ -261,7 +261,7 @@
     - Unrelated processes
     - Data is Sequential
     - open,/home/madhusudhan/Pictures/Screenshot from 2022-06-02 17-29-10.png read, wirte, close
-     
+
 # Assignment
 
 1. Write your own utility using system calls (open, read, write, close) to copy data from one file to another file. Essentially you are implementing a copy utility. Fullfledged utility should support the following options:
@@ -290,8 +290,6 @@ using copy utility "cps" and " cpl " performing 1GB file operations
 | 1000000       |  7.8850s      | 41.6  |
 | 1000000000    |   0.766s      |0.4733 |
 
-
-
 using copy utility "cps" and " cpl " performing 400mb file operations
 |     buf size  |      cps      | cpl   |
 | ------------- |:-------------:| -----:|
@@ -306,10 +304,9 @@ using copy utility "cps" and " cpl " performing 1mb file operations
 | 1000000       |  0.003        | 0.177 |
 | 1000000000    |   0.455       | 0.427 |
 
-
-
  -posix threads
  pthread_create
+
 # Day 8
 
 - POSIX Threads
@@ -350,7 +347,6 @@ using copy utility "cps" and " cpl " performing 1mb file operations
     - Resource that is shared between multiple threads/ processes
     - Race Condition => Data corruption
 
-
 **day9**
   -mutual Exclusion
     -mutex
@@ -364,7 +360,21 @@ using copy utility "cps" and " cpl " performing 1mb file operations
 -mutex lock
  -lock
  -try lock
- -timed lock    
- - critical section
-   -small as possible    
+ -timed lock
+
+- critical section
+   -small as possible
 /usr/include/pthread.h
+
+day9
+
+-semaphores
+ -binary semaphores
+ -mutual exclusoin  => init =1
+ -signaling
+ -couting semaphores
+ - semaphore
+ -sem_t
+ -sem_destroy
+ -sem_wait => decrement => blocking => sem<=0
+ -sem_post => Increment 1
