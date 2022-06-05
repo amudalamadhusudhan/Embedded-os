@@ -248,7 +248,7 @@
   - Orphan Processes
   - Child inherits file descriptors from the parent
 
-   **day7**
+  # day7
 
 - Interprocess Communication
   - Pipes
@@ -347,7 +347,7 @@ using copy utility "cps" and " cpl " performing 1mb file operations
     - Resource that is shared between multiple threads/ processes
     - Race Condition => Data corruption
 
-**day9**
+ # day9
   -mutual Exclusion
     -mutex
       -futex
@@ -364,15 +364,17 @@ using copy utility "cps" and " cpl " performing 1mb file operations
 
 - critical section
    -small as possible
-/usr/include/pthread.h
+ /usr/include/pthread.h
 
-day9
+
+
+day10 
 
 -semaphores
  -binary semaphores
  -mutual exclusoin  => init =1
  -signaling
- -couting semaphores
+ -couting semaphoresclear
  - semaphore
  -sem_t
  -sem_destroy
