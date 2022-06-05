@@ -2,16 +2,26 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** Makefile: Is a directory.  Stop.
 
 # GNU Make 4.2.1
+ 
 # Built for x86_64-pc-linux-gnu
+ 
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
+ 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+ 
 # This is free software: you are free to change and redistribute it.
+ 
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Sat Jun  4 16:07:41 2022
+ 
+# Make data base, printed on Sun Jun  5 10:00:59 2022
+ 
 
 # Variables
+ 
 
+ 
 # environment
 GNUMAKEFLAGS := 
 # automatic
@@ -47,7 +57,7 @@ VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:35016
+JOURNAL_STREAM = 8:62403
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'Makefile', line 1)
@@ -67,19 +77,20 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 _ = /usr/bin/code
 # environment
-MANAGERPID = 1326
+MANAGERPID = 4650
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/madhusudhan/Desktop/Embedded-os
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
+ 
 # environment
 PATH = /home/madhusudhan/Downloads/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/madhusudhan:@/tmp/.ICE-unix/1573,unix/madhusudhan:/tmp/.ICE-unix/1573
+SESSION_MANAGER = local/madhusudhan:@/tmp/.ICE-unix/4898,unix/madhusudhan:/tmp/.ICE-unix/4898
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -89,7 +100,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 0cfbf1abaa1a4a66a709d254ade43479
+INVOCATION_ID = 5c9af47d5fc245399f1375dc7fc06c9c
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -109,7 +120,7 @@ PWD = /home/madhusudhan/Desktop/Embedded-os
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1534
+SSH_AGENT_PID = 4860
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -151,7 +162,7 @@ SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-24264c91-b166-4a7f-9e8e-f8a3e586d339.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-cdfe770b-94e2-453d-9508-deddda5ea668.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -195,11 +206,11 @@ LC_ALL = C
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/cfabc093_09a0_4bac_a987_36461e1a64f9
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/991c639e_fb86_4127_9a50_563b8de131e6
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.2425
+GNOME_TERMINAL_SERVICE = :1.511
 # default
 SUFFIXES := 
 # environment
@@ -217,7 +228,7 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 1396112
+VSCODE_PID = 11421
 # variable set hash-table stats:
 # Load=103/1024=10%, Rehash=0, Collisions=12/116=10%
 
@@ -227,9 +238,9 @@ VSCODE_PID = 1396112
 
 # Directories
 
-# . (device 2053, inode 1581838): 23 files, no impossibilities.
+# . (device 2053, inode 1581838): 25 files, no impossibilities.
 
-# 23 files, no impossibilities in 1 directories.
+# 25 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -264,12 +275,12 @@ Makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 28 / storage = 251 B / avg = 8 B
-# current buf: size = 8162 B / used = 251 B / count = 28 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 30 / storage = 271 B / avg = 9 B
+# current buf: size = 8162 B / used = 271 B / count = 30 / avg = 9 B
 
-# strcache performance: lookups = 32 / hit rate = 12%
+# strcache performance: lookups = 34 / hit rate = 11%
 # hash-table stats:
-# Load=28/8192=0%, Rehash=0, Collisions=1/32=3%
-# Finished Make data base on Sat Jun  4 16:07:41 2022
+# Load=30/8192=0%, Rehash=0, Collisions=1/34=3%
+# Finished Make data base on Sun Jun  5 10:00:59 2022
 
  

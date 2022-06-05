@@ -1,9 +1,4 @@
 {
-  "makefile.extensionOutputFolder": "./.vscode",
-  "files.associations": {
-    "unistd.h": "c",
-    "stdio.h": "c"
-  },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
@@ -32,7 +27,5 @@
     "**/.*/**",
     "**/.vscode",
     "**/.vscode/**"
-  ],
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": false
+  ]
 }
