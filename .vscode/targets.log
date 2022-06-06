@@ -2,26 +2,16 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** Makefile: Is a directory.  Stop.
 
 # GNU Make 4.2.1
- 
 # Built for x86_64-pc-linux-gnu
- 
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
- 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
- 
 # This is free software: you are free to change and redistribute it.
- 
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
- 
-# Make data base, printed on Sun Jun  5 10:00:59 2022
- 
+# Make data base, printed on Mon Jun  6 11:37:57 2022
 
 # Variables
- 
 
- 
 # environment
 GNUMAKEFLAGS := 
 # automatic
@@ -57,7 +47,7 @@ VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:62403
+JOURNAL_STREAM = 8:34888
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'Makefile', line 1)
@@ -71,26 +61,25 @@ USERNAME = madhusudhan
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=86f925fcd005431936b206ca629d9958
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
 _ = /usr/bin/code
 # environment
-MANAGERPID = 4650
+MANAGERPID = 1343
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/madhusudhan/Desktop/Embedded-os
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
- 
 # environment
 PATH = /home/madhusudhan/Downloads/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/madhusudhan:@/tmp/.ICE-unix/4898,unix/madhusudhan:/tmp/.ICE-unix/4898
+SESSION_MANAGER = local/madhusudhan:@/tmp/.ICE-unix/1589,unix/madhusudhan:/tmp/.ICE-unix/1589
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -100,7 +89,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 5c9af47d5fc245399f1375dc7fc06c9c
+INVOCATION_ID = 928fced363de4f74b0abf4c83a4f6eda
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -120,7 +109,7 @@ PWD = /home/madhusudhan/Desktop/Embedded-os
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 4860
+SSH_AGENT_PID = 1551
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -162,7 +151,7 @@ SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-cdfe770b-94e2-453d-9508-deddda5ea668.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-2c2305bd-5d77-4617-98e4-d2dcee547f51.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -204,13 +193,13 @@ MAKEFILES :=
 # environment
 LC_ALL = C
 # environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+DBUS_STARTER_BUS_TYPE = session
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/991c639e_fb86_4127_9a50_563b8de131e6
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/011e4649_b6d8_4b6b_86d9_b03d8a83550b
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.511
+GNOME_TERMINAL_SERVICE = :1.72
 # default
 SUFFIXES := 
 # environment
@@ -219,8 +208,6 @@ CHROME_DESKTOP = code-url-handler.desktop
 WINDOWPATH = 2
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
-# environment
-GJS_DEBUG_OUTPUT = stderr
 # default
 .RECIPEPREFIX := 
 # environment
@@ -228,7 +215,9 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 11421
+VSCODE_PID = 2146
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=86f925fcd005431936b206ca629d9958
 # variable set hash-table stats:
 # Load=103/1024=10%, Rehash=0, Collisions=12/116=10%
 
@@ -238,9 +227,9 @@ VSCODE_PID = 11421
 
 # Directories
 
-# . (device 2053, inode 1581838): 25 files, no impossibilities.
+# . (device 2053, inode 1592177): 29 files, no impossibilities.
 
-# 25 files, no impossibilities in 1 directories.
+# 29 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -275,12 +264,12 @@ Makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 30 / storage = 271 B / avg = 9 B
-# current buf: size = 8162 B / used = 271 B / count = 30 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 34 / storage = 311 B / avg = 9 B
+# current buf: size = 8162 B / used = 311 B / count = 34 / avg = 9 B
 
-# strcache performance: lookups = 34 / hit rate = 11%
+# strcache performance: lookups = 38 / hit rate = 10%
 # hash-table stats:
-# Load=30/8192=0%, Rehash=0, Collisions=1/34=3%
-# Finished Make data base on Sun Jun  5 10:00:59 2022
+# Load=34/8192=0%, Rehash=0, Collisions=1/38=3%
+# Finished Make data base on Mon Jun  6 11:37:57 2022
 
  

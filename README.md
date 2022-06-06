@@ -368,15 +368,16 @@ using copy utility "cps" and " cpl " performing 1mb file operations
 
 
 
-day10 
+# day10 
 
 -semaphores
- -binary semaphores
- -mutual exclusoin  => init =1
- -signaling
- -couting semaphoresclear
- - semaphore
- -sem_t
- -sem_destroy
- -sem_wait => decrement => blocking => sem<=0
- -sem_post => Increment 1
+  -binary semaphores
+  -mutual exclusoin  => init =1
+  -signaling
+  -couting semaphores
+  
+  - **semaphore**
+  -sem_t
+  -sem_destroy
+  -sem_wait => decrement => blocking => sem<=0
+  -sem_post => Increment 1
