@@ -389,6 +389,8 @@
 
 - Assignment: Use signalling semaphore for bilateral rendezvous (Task 1 and Task 2 => input and processing task respectively), when the initial value of both the semaphores is 1.
 - Assignment: Memory Block Manager - Using the counting semaphore to manage the memory blocks.\
+- ![Screenshot from 2022-06-08 23-11-33](https://user-images.githubusercontent.com/105910992/172779377-09ed3b79-f836-464a-97cf-e271b5603525.png)
+
 
 - Read Write Locks
 
