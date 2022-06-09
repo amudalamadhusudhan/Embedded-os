@@ -248,7 +248,7 @@
   - Orphan Processes
   - Child inherits file descriptors from the parent
 
-  # day7
+# day7
 
 - Interprocess Communication
   - Pipes
@@ -304,8 +304,8 @@
 | 1000000       |  0.003        | 0.177 |
 | 1000000000    |   0.455       | 0.427 |
 
- - posix threads
- - pthread_create
+- posix threads
+- pthread_create
 
 # Day 8
 
@@ -347,28 +347,27 @@
     - Resource that is shared between multiple threads/ processes
     - Race Condition => Data corruption
 
- # day9
-  - mutual Exclusion
-    - mutex
-      - futex
-      - recursive mutex
-      - error checking mutex
-      - adaptive mutex
-    - semaphores
-    - Read write locks;
+# day9
+
+- mutual Exclusion
+  - mutex
+    - futex
+    - recursive mutex
+    - error checking mutex
+    - adaptive mutex
+  - semaphores
+  - Read write locks;
 
 - mutex lock
- - lock
- - try lock
- - timed lock
+- lock
+- try lock
+- timed lock
 
 - critical section
-   - small as possible
+  - small as possible
  /usr/include/pthread.h
 
-
-
-# day10 
+# day10
 
 - semaphores
   - binary semaphores
@@ -382,7 +381,9 @@
   - sem_wait => decrement => blocking => sem<=0
   - sem_post => Increment 1
   Counting Semaphore
-   # day 11
+
+# day 11
+
   - signanling semaphore
   - Resource Management
   - sem_init => Maximum number of resources available => Same type
@@ -392,13 +393,14 @@
 
 - ![Screenshot from 2022-06-09 12-20-23](https://user-images.githubusercontent.com/105910992/172787103-14b0dc71-a3d7-4121-88d2-fa6cc4d28ff2.png)
 
-
 - Read Write Locks
+
+# day12
 
 - Exec
 
-  - Used to load a new program in the current address space of process
-  - After exec no statments in the current process are executed
+- Used to load a new program in the current address space of process
+- After exec no statments in the current process are executed
 
 - Barriers
 
