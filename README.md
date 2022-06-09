@@ -381,3 +381,52 @@
   - sem_destroy
   - sem_wait => decrement => blocking => sem<=0
   - sem_post => Increment 1
+  Counting Semaphore
+   # day 11
+  - signanling semaphore
+  - Resource Management
+  - sem_init => Maximum number of resources available => Same type
+
+- Assignment: Use signalling semaphore for bilateral rendezvous (Task 1 and Task 2 => input and processing task respectively), when the initial value of both the semaphores is 1.
+- Assignment: Memory Block Manager - Using the counting semaphore to manage the memory blocks.\
+
+- Read Write Locks
+
+- Exec
+
+  - Used to load a new program in the current address space of process
+  - After exec no statments in the current process are executed
+
+- Barriers
+
+  - pthread_barrier_init
+  - pthread_barrier_destroy
+  - pthread_barrier_wait
+
+- Conditional Variables (Condvars)
+
+- Shared Memory
+
+  - shm_open
+  - ftruncate
+  - mmap (attach the shared memory to the address space of the process)
+  - Allocated in the User space
+  - Fastest IPC
+  - Race condition => Mutual Exclusion => Semaphores
+  - Fixed size of data
+  - Assignment:
+    1. P1: Declare your own struct => {pid, ppid}
+    2. P1: Tranfer struct to another process P2
+    3. P2: Recv this struct and print it out
+
+- Message Queues
+  - mq_open
+  - mq_send, mq_recv
+  - Attributes => # number of messages, Max size of the message
+  - In-built synchronization
+  - Allows to communicate multiple messages and messages can be of different sizes
+  - Assignment:
+    1. P1: Declare your own struct => {pid, ppid}
+    2. P1: Tranfer struct to another process P2
+    3. P2: Recv this struct and print it out
+- Sockets
