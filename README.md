@@ -384,9 +384,9 @@
 
 # day 11
 
-  - signanling semaphore
-  - Resource Management
-  - sem_init => Maximum number of resources available => Same type
+- signanling semaphore
+- Resource Management
+- sem_init => Maximum number of resources available => Same type
 
 - Assignment: Use signalling semaphore for bilateral rendezvous (Task 1 and Task 2 => input and processing task respectively), when the initial value of both the semaphores is 1.
 - Assignment: Memory Block Manager - Using the counting semaphore to manage the memory blocks.\
@@ -410,16 +410,18 @@
 
 - Conditional Variables (Condvars)
 
+# day 13
+
 - Shared Memory
 
-  - shm_open
-  - ftruncate
-  - mmap (attach the shared memory to the address space of the process)
-  - Allocated in the User space
-  - Fastest IPC
-  - Race condition => Mutual Exclusion => Semaphores
-  - Fixed size of data
-  - Assignment:
+- shm_open
+- ftruncate
+- mmap (attach the shared memory to the address space of the process)
+- Allocated in the User space
+- Fastest IPC
+- Race condition => Mutual Exclusion => Semaphores
+- Fixed size of data
+- Assignment:
     1. P1: Declare your own struct => {pid, ppid}
     2. P1: Tranfer struct to another process P2
     3. P2: Recv this struct and print it out
@@ -435,3 +437,58 @@
     2. P1: Tranfer struct to another process P2
     3. P2: Recv this struct and print it out
 - Sockets
+
+  - DLL/ MAC => Ethernet Address/ MAC Address/ Hardware Address
+  - Network => IP Address/ IP Protocol (IPv4 [32-bit]/ IPv6[128-bit])
+  - Transport => TCP/ UDP => Port Number (16 bit number)
+  - Application => HTTP/ FTP/ SSH/ Telnet
+
+- U-Boot
+
+  - git clone <https://source.denx.de/u-boot/u-boot.git>
+  - ls configs
+  - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
+  - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- qemu_arm_defconfig
+  - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
+  - qemu-system-arm -machine ?
+  - qemu-system-arm -machine virt -serial stdio -display none -bios u-boot.bin
+  - U-Boot shell
+    - bdinfo
+    - setenv
+    - printenv
+    - saveenv
+  - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
+  - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- clean
+  - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- mrproper
+
+- Kernel
+
+  - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- bcm2835_defconfig
+  - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
+  - qemu-system-arm -M raspi2 -m 512M -kernel arch/arm/boot/zImage -nographic -append "console=ttyAMA0,115200 root=/dev/mmcblk0p2 rootwait rw" -cpu cortex-a15 -dtb ./arch/arm/boot/dts/bcm2836-rpi-2-b.dtb
+
+- Root FS
+
+  - wget <https://busybox.net/downloads/busybox-1.32.1.tar.bz2>
+  - bunzip2 < busybox-1.32.1.tar.bz2 | tar xvf -
+  - cd busybox-1.32.1
+  - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- defconfig
+  - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
+    - Enable static linking
+  - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- install
+    - Create root fs in \_install directory locally
+  - cd \_install
+  - find . | cpio -o --format=newc > ../rootfs.img
+  - cd ..
+  - gzip -c rootfs.img > rootfs.img.gz
+  - qemu-system-arm -M raspi2 -m 512M -kernel zImage -nographic -append "console=ttyAMA0,115200" -cpu cortex-a15 -dtb bcm2836-rpi-2-b.dtb -initrd rootfs.img.gz -append "root=/dev/ram rdinit=/bin/sh"
+  - mkdir proc sys dev etc etc/init.d
+  - touch \_install/etc/init.d/rcS
+  - chmod +x \_install/etc/init.d/rcS
+
+  ```bash
+    #!/bin/sh
+    mount -t proc none /proc
+    mount -t sysfs none /sys
+    /sbin/mdev -s
+  ```
