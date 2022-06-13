@@ -402,9 +402,9 @@
 - Used to load a new program in the current address space of process
 - After exec no statments in the current process are executed
 - ![Screenshot from 2022-06-09 23-48-25](https://user-images.githubusercontent.com/105910992/173197531-36ae8e52-da0e-406a-bab0-cb23b307c1cd.png)
-- dummyshell 
+- dummyshell
 - ![Screenshot from 2022-06-09 23-30-42](https://user-images.githubusercontent.com/105910992/173197560-830ccae1-2538-4bc4-b1e3-9b05525ea67d.png)
-- - ownshell
+  - - ownshell
 
 - Barriers
 
@@ -440,6 +440,9 @@
     1. P1: Declare your own struct => {pid, ppid}
     2. P1: Tranfer struct to another process P2
     3. P2: Recv this struct and print it out
+
+# day 14
+
 - Sockets
 
   - DLL/ MAC => Ethernet Address/ MAC Address/ Hardware Address

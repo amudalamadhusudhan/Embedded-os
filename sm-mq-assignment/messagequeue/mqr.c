@@ -30,8 +30,8 @@ int main(int argc, char const *argv[])
         exit(EXIT_FAILURE);
     }
     mq_receive(mqd, count, msg_size, &priority);
-    printf("process pid:%d\n", count->pid);
-    printf("process parent id ppid:%d\n", count->ppid);
+    printf("process pid:%d\n", p1.pid);
+    printf("process parent id ppid:%d\n", p1.ppid);
     mq_close(mqd);
     return 0;
 }
