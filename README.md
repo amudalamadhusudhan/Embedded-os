@@ -404,7 +404,7 @@
 - ![Screenshot from 2022-06-09 23-48-25](https://user-images.githubusercontent.com/105910992/173197531-36ae8e52-da0e-406a-bab0-cb23b307c1cd.png)
 - dummyshell
 - ![Screenshot from 2022-06-09 23-30-42](https://user-images.githubusercontent.com/105910992/173197560-830ccae1-2538-4bc4-b1e3-9b05525ea67d.png)
-  - - ownshell
+    - - ownshell
 
 - Barriers
 
@@ -467,6 +467,8 @@
   - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
   - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- clean
   - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- mrproper
+
+# day 15
 
 - Kernel
 
