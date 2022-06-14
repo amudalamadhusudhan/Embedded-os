@@ -17,7 +17,6 @@ U-Boot
   - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- clean
   - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- mrproper
 
-# day 15
 
 - Kernel
 
