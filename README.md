@@ -404,7 +404,7 @@
 - ![Screenshot from 2022-06-09 23-48-25](https://user-images.githubusercontent.com/105910992/173197531-36ae8e52-da0e-406a-bab0-cb23b307c1cd.png)
 - dummyshell
 - ![Screenshot from 2022-06-09 23-30-42](https://user-images.githubusercontent.com/105910992/173197560-830ccae1-2538-4bc4-b1e3-9b05525ea67d.png)
-  - - ownshell
+    - - ownshell
 
 - Barriers
 
@@ -470,13 +470,13 @@
 
 # day 15
 
-- Kernel
+- # Kernel
 
   - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- bcm2835_defconfig
   - make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
   - qemu-system-arm -M raspi2 -m 512M -kernel arch/arm/boot/zImage -nographic -append "console=ttyAMA0,115200 root=/dev/mmcblk0p2 rootwait rw" -cpu cortex-a15 -dtb ./arch/arm/boot/dts/bcm2836-rpi-2-b.dtb
 
-- Root FS
+- # Root FS
 
   - wget <https://busybox.net/downloads/busybox-1.32.1.tar.bz2>
   - bunzip2 < busybox-1.32.1.tar.bz2 | tar xvf -
