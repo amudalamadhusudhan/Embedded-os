@@ -33,7 +33,7 @@
   - Kernel (Linux)
   - RFS (Buildroot)
 
-## Day 3 and 4
+## Day 3
 
 - Makefile
 - Toolchain
@@ -404,7 +404,7 @@
 - ![Screenshot from 2022-06-09 23-48-25](https://user-images.githubusercontent.com/105910992/173197531-36ae8e52-da0e-406a-bab0-cb23b307c1cd.png)
 - dummyshell
 - ![Screenshot from 2022-06-09 23-30-42](https://user-images.githubusercontent.com/105910992/173197560-830ccae1-2538-4bc4-b1e3-9b05525ea67d.png)
-    - - ownshell
+  - - ownshell
 
 - Barriers
 
@@ -501,4 +501,5 @@
     mount -t sysfs none /sys
     /sbin/mdev -s
   ```
+
 ![Screenshot from 2022-06-14 11-02-17](https://user-images.githubusercontent.com/105910992/173501451-61c2a852-fac2-43b3-aace-5e5891f89060.png)
