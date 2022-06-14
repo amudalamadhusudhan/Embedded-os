@@ -501,3 +501,4 @@
     mount -t sysfs none /sys
     /sbin/mdev -s
   ```
+![Screenshot from 2022-06-14 11-02-17](https://user-images.githubusercontent.com/105910992/173501451-61c2a852-fac2-43b3-aace-5e5891f89060.png)
