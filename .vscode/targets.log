@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** Makefile: Is a directory.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun  9 18:59:56 2022
+# Make data base, printed on Sat Jun 18 11:48:59 2022
 
 # Variables
 
@@ -45,7 +47,7 @@ VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:35320
+JOURNAL_STREAM = 8:48168
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'Makefile', line 1)
@@ -65,7 +67,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 _ = /usr/bin/code
 # environment
-MANAGERPID = 1334
+MANAGERPID = 1359
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -73,11 +75,11 @@ VSCODE_CWD = /home/madhusudhan/Desktop/Embedded-os
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/madhusudhan/Downloads/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/madhusudhan:@/tmp/.ICE-unix/1581,unix/madhusudhan:/tmp/.ICE-unix/1581
+SESSION_MANAGER = local/madhusudhan:@/tmp/.ICE-unix/1584,unix/madhusudhan:/tmp/.ICE-unix/1584
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -87,7 +89,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = ff9e19cf008b49a7860cb57c77341dd3
+INVOCATION_ID = 8c14793c3cef4078965a7c0e50b9ab5b
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -107,7 +109,7 @@ PWD = /home/madhusudhan/Desktop/Embedded-os
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1543
+SSH_AGENT_PID = 1546
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -121,7 +123,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/madhusudhan/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+VSCODE_CODE_CACHE_PATH = /home/madhusudhan/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LOGNAME = madhusudhan
 # environment
@@ -149,7 +151,7 @@ SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-35802236-08d2-4cb8-91d8-34c931c2ce74.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-54e44f3f-6df2-429d-9fb9-2c4318204364.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -162,6 +164,8 @@ XDG_CURRENT_DESKTOP = Unity
 %D = $(patsubst %/,%,$(dir $%))
 # default
 MAKE_COMMAND := make
+# environment
+OLDPWD = /home/madhusudhan/Desktop
 # default
 .VARIABLES := 
 # automatic
@@ -169,7 +173,7 @@ MAKE_COMMAND := make
 # environment
 LANGUAGE = en_IN:en
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-f77e7c58-1.67.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-f77e7c58-1.68.1-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -191,13 +195,11 @@ MAKEFILES :=
 # environment
 LC_ALL = C
 # environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
-# environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/6f15d64f_650c_4df7_ac36_f53e776f5f5a
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/7115b3c4_3313_465d_914a_2447d76c2084
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.145
+GNOME_TERMINAL_SERVICE = :1.279
 # default
 SUFFIXES := 
 # environment
@@ -206,8 +208,6 @@ CHROME_DESKTOP = code-url-handler.desktop
 WINDOWPATH = 2
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
-# environment
-GJS_DEBUG_OUTPUT = stderr
 # default
 .RECIPEPREFIX := 
 # environment
@@ -215,9 +215,9 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 4405
+VSCODE_PID = 19899
 # variable set hash-table stats:
-# Load=103/1024=10%, Rehash=0, Collisions=12/116=10%
+# Load=102/1024=10%, Rehash=0, Collisions=12/115=10%
 
 # Pattern-specific Variable Values
 
@@ -225,9 +225,9 @@ VSCODE_PID = 4405
 
 # Directories
 
-# . (device 2053, inode 1608361): 32 files, no impossibilities.
+# . (device 66310, inode 1578367): 44 files, no impossibilities.
 
-# 32 files, no impossibilities in 1 directories.
+# 44 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -262,14 +262,12 @@ Makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 37 / storage = 355 B / avg = 9 B
-# current buf: size = 8162 B / used = 355 B / count = 37 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 49 / storage = 483 B / avg = 9 B
+# current buf: size = 8162 B / used = 483 B / count = 49 / avg = 9 B
 
-# strcache performance: lookups = 41 / hit rate = 9%
+# strcache performance: lookups = 53 / hit rate = 7%
 # hash-table stats:
-# Load=37/8192=0%, Rehash=0, Collisions=1/41=2%
-# Finished Make data base on Thu Jun  9 18:59:56 2022
+# Load=49/8192=1%, Rehash=0, Collisions=1/53=2%
+# Finished Make data base on Sat Jun 18 11:48:59 2022
 
  
-make: *** Makefile: Is a directory.  Stop.
-

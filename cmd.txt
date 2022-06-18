@@ -1,0 +1,1896 @@
+clear
+cd ..
+mkdir mutextry
+ls
+cd mutex
+clear
+ls
+code mtry.c
+ls
+clear
+gcc mtry.c
+gcc mtry.c -o mutextry -lpthread
+clear
+ls
+./mutextry
+ls
+gcc mutextry.c -o mutextry -lpthread
+ls
+./mutextry
+./mutextry >out.tx
+clear
+ls
+cd ..
+ls
+clear
+ls
+git status
+git add .
+git commit -m "mutex"
+git push
+clear
+git status
+git commit -m "largefile .txt deleted"
+git push
+clear
+git status
+clear
+git log
+clear
+ls
+cd Desktop
+ls
+cd Embedded-c
+ls
+cd Embedded-os
+ls
+git status
+ls -al
+claer
+clear
+git status
+ls
+git statsu
+git status
+clear
+code .
+git status
+git commit -m "mutex"
+git push
+clear
+mkdir semaphores
+cd semaphores
+ls
+mkdir mutualexclusion
+cd mutualexclution
+ls
+cd mutualexclusion/
+clear
+ls
+mex.c
+code mex.c
+clear
+man sem_init
+clear
+ls
+gcc mex.c -o mex -lpthread
+ls
+./mex >out.txt
+clear
+code out.txt
+clear
+gcc mex.c -o mex -lpthread
+./mex >out.txt
+code out.txt
+./a.out
+./mex
+clear
+ls
+cd ..
+ls
+cd ..
+clesr
+clear
+git status
+git add .
+git commit -m "semaphores"
+git push
+git fetch https://github.com/amudalamadhusudhan/Embedded-os.git
+git push
+git pull https://github.com/amudalamadhusudhan/Embedded-os.git
+git push
+git pull https://github.com/amudalamadhusudhan/Embedded-os.git
+git status
+git commit
+git merge
+git merge https://github.com/amudalamadhusudhan/Embedded-os.git
+cd ..
+git clone https://github.com/amudalamadhusudhan/Embedded-os.git
+clear
+ls
+cd Embedded-os
+ls
+git status
+git add .
+git commit -m "semaphores"
+git push
+gir status
+git status
+git sdd .
+git add .
+git commit -m "semaphores"
+git push
+clear
+git add .
+git commit -m "semaphore"
+git push
+sudo apt insatll putty
+sudo apt
+sudo apt insatll PuTTY
+git status
+git add .
+git commit -m "semaphores"
+git push
+clear
+git status
+git add .
+git commit -m "semaphores"
+git push
+git status
+git add .
+git commit -m "semaphores"
+git push
+code .
+cd ..
+ls
+cd Ebedded-os
+cd Embedded-os
+ls
+mkdir semaphore-assignment
+ls
+cd semaphore-assignment
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+lsl
+clear
+ls
+clear
+ls
+clear
+ls
+code .
+2.c
+code memoryblocks.c
+cd ..
+ls
+cd signalingsem
+ls
+code signaling.c
+clear
+ls
+cd
+code memoryblocks.c
+man sem_wait
+git status
+man sem_post
+man semmaphore/
+man semaphore/
+man semaphores/
+man semaphores
+man sem
+man sem_init
+man sem_overview
+man sem_post
+ls
+cd semaphore-assigment
+cd semaphore-assingment
+cd semaphore-assignment
+ls
+gcc memoryblocks.c -o mem -lpthread
+./mem
+clear
+gcc memoryblocks.c -o mem -lpthread
+./mem
+gcc memoryblocks.c -o mem -lpthread
+./mem
+clear
+gcc memoryblocks.c -o mem -lpthread
+./mem
+gcc memoryblocks.c -o mem -lpthread
+./mem
+clear
+gcc memoryblocks.c -o mem -lpthread
+./mem
+clear
+gcc memoryblocks.c -o mem -lpthread
+./mem
+clear
+gcc memoryblocks.c -o mem -lpthread
+clear
+gcc memoryblocks.c -o mem -lpthread
+./mem
+gcc memoryblocks.c -o mem -lpthread
+./mem
+gcc memoryblocks.c -o mem -lpthread
+./mem
+gcc memoryblocks.c -o mem -lpthread
+./mem
+gcc memoryblocks.c -o mem -lpthread
+./mem
+gcc memoryblocks.c -o mem -lpthread
+./mem
+clear
+cd ..
+cd
+clear
+cd Desktop
+ls
+git clone https://github.com/amudalamadhusudhan/Embedded-os.git
+cd Embedded-os
+ls
+cd semaphore-assignment
+ls
+bilateralrendezvous.c -o br -lpthread
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+clear
+man sem_t
+clear
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+clear
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+clear
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+ls
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+ls
+./mem
+gcc memoryblocks.c -o mem -lpthread
+./mem
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+clear
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+gcc bilateralrendezvous.c -o br -lpthread
+./br
+ls
+gcc memoryblocks.c
+gcc memoryblocks.c -lpthread
+./a.out
+cd ..
+git status
+cd ..
+clear
+git clone https://github.com/amudalamadhusudhan/Embedded-os.git
+ls
+rm -rf Embedded-os
+la
+clear
+git clone https://github.com/amudalamadhusudhan/Embedded-os.git
+ls
+cd Embedded-os
+ls
+git ststus
+git satstus
+git status
+clear
+git add .
+git commit -m "semaphores assignment"
+git push
+ls
+code README.md
+git status
+git commit -m"readme.md"
+git commit -m "readme.md"
+git add .
+git commit -m "readme.md"
+git push
+clear
+ls
+cd Desktop
+ls
+git clone https://github.com/amudalamadhusudhan/Embedded-os.git
+ls
+cd Embedded-os
+ls
+cd semaphore-assignment
+ls
+code memoryblocks.c
+gcc memoryblocks.x
+gcc memoryblocks.c
+gcc memoryblocks.c -lpthread
+./a.out
+gcc memoryblocks.c -lpthread
+./a.out
+gcc memoryblocks.c -lpthread
+./a.out
+gcc memoryblocks.c -lpthread
+./a.out
+gcc memoryblocks.c -lpthread
+./a.out
+gcc memoryblocks.c -o mb -lpthread
+./mb
+code .
+git status
+git add semaphore-assigmnent
+git add semaphore-assignment
+git commit -m "semaphore-assignment"
+git push
+cleR
+clear
+ls
+clear
+sudo remove code
+sudo aot remove code
+sudo apt remove code
+]9\4
+[\\\\\\\\\\\
+clear
+/\\-///////////////*
+clear
+ps -el
+kill - -
+kill -9 -1
+sudo apt install code
+clear
+code .
+clear
+ls
+cd Embedded-os
+ls
+git status
+gi clone https://github.com/amudalamadhusudhan/Embedded-os.git
+git clone https://github.com/amudalamadhusudhan/Embedded-os.git
+cd desktop
+cd Desktop
+ls
+code .
+git status
+cclear
+ls
+clear
+ls
+mkdir exec
+cd exec
+code exec.c
+man exec
+clear
+ls
+gcc exec.c -o exec
+ls
+./exec
+gcc exec.c -o exec
+ls
+gcc exec.c -o exec
+./exec
+exec
+exec cd
+clear
+./exec
+cd ..
+mkdir dummyshell
+ls
+code shell.c
+cd dummysell
+cd dummyshell
+ls
+code shell.c
+./threaddemo
+ls
+gcc shell.c -o shell
+./shell
+gcc shell.c -o shell
+./shell
+gcc shell.c -o shell
+cd ownshell
+./ownshell
+mkdir originalshell
+rm originalshell
+rm -rf originalshell
+clear
+mkdir ownshell
+cd ownshell
+ls
+code ownshell.c
+gcc ownshell.c 
+./a.out 
+gcc ownshell.c 
+./a.out 
+gcc ownshell.c 
+./a.out 
+gcc ownshell.c 
+./a.out 
+gcc ownshell.c 
+./a.out 
+gcc ownshell.c 
+./a.out 
+clear
+gcc ownshell.c 
+./a.out 
+gcc ownshell.c 
+./a.out 
+gcc ownshell.c 
+./a.out 
+gcc ownshell.c 
+./a.out 
+which mkdir
+gcc ownshell.c 
+./a.out 
+gcc ownshell.c 
+./a.out 
+gcc ownshell.c 
+./a.out 
+gcc ownshell.c 
+./a.out 
+clear
+./a.out 
+which ls -al
+gcc ownshell.c 
+./a.out 
+which touch
+gcc ownshell.c 
+./a.out 
+gcc ownshell.c 
+./a.out 
+gcc ownshell.c 
+./a.out 
+date
+which date
+gcc ownshell.c 
+./a.out 
+gcc ownshell.c 
+./a.out 
+gcc ownshell.c -o ownshell
+which pwd
+clear
+ls
+gcc ownshell.c -o ownshell
+./a.out 
+gcc ownshell.c -o ownshell
+./ownshell
+clear
+./ownshell
+gcc ownshell.c -o ownshell
+./ownshell
+ls
+./ownshell
+gcc ownshell.c -o ownshell
+./ownshell
+clear
+ls
+rm -rf a.out
+ls
+./ownshell
+hit ..
+cd ..
+ld
+clear
+git status
+git add .
+git commit -m "ownshell"
+git push
+clear
+ls
+clear
+ls
+mkdir barrier
+cd barrier
+ls
+clear
+code barrier.c
+cd ..
+ld
+cd ..
+l
+ls
+clear
+ls
+./ownshell
+clear
+cd Embedded-os
+ls
+cd barrier
+ls
+gcc barrier.c -o barrier -lpthread
+./barrier
+gcc barrier.c -o barrier -lpthread
+./barrier
+gcc barrier.c -o barrier -lpthread
+./barrier
+gcc barrier.c -o barrier -lpthread
+./barrier
+code barriesloved.c
+clear
+ls
+cd ..
+ls
+git status
+git add .
+git commit -m "barrier"
+git push
+cd ..
+cd
+cd/
+cd /
+cd usr
+cd bin
+clear
+ls
+cd mkdir
+./mkdir
+which mkdir
+code .
+ls
+cd ownshell
+ls
+gcc ownshell.c -o ownshell
+./ownshell
+gcc ownshell.c -o ownshell
+./ownshell
+gcc ownshell.c -o ownshell
+./ownshell
+clear
+cd ..
+git status
+cd own shell
+cd ownshell
+gcc ownshell.c -o ownshell
+./ownshell
+cd ..
+git status
+clear
+ls
+cd barrier
+ls
+
+code barreir.c
+code barrier.c
+./barrirer
+./barrier
+clear
+ls
+gcc barriesloved.c -o bs
+gcc barriesloved.c -o bs -lpthread
+./bs
+clear
+cd ..
+git satus
+git status
+git add barrrier
+git add barrier
+git commit -m "barrier"
+git push
+git status
+git add .
+git commit -m "ownshell"
+git push
+git status
+clear
+tree
+clear
+ls
+mkdir condvar
+cd condar
+cd condvar
+clear
+code condvarprob.c
+gcc condvarprob.c 
+./a.out
+gcc condvarprob.c 
+gcc condvarprob.c -lpthread
+clear
+./a.out
+clear
+./a.out
+clear
+gcc condvarprob.c -lpthread
+./a.out
+clear
+./a.out
+clear
+ld
+ls
+clear
+cp condvarpob.c condvarsolved.c
+ls
+cp condvarpob.c condvarsolved.c
+touch condvarsloved.c
+cp condvarprob.c condvarsolved.c
+ls
+rm -rf condvarsloved.c
+ls
+code condvarsloved.c
+ls
+gcc condvarprob.c -o cp -lpthread
+gcc condvarsloved.c -o cs -lpthread
+ls
+rm -rf a.out
+ls
+sclear
+clear
+ls
+./cs
+gcc condvarsloved.c -o cs -lpthread
+./cs
+clear
+./cs
+cd ..
+ls
+git status
+git add .
+git commit -m "conditional variables"
+git push
+clear
+git push
+git status
+clear
+cd ..
+ls
+rm -rf markdown 
+ls
+clear
+ls
+clear
+ls
+code .
+cd ..
+clear
+ls
+docker --version
+ls
+cd Desktop
+ls
+cd qemu
+./configure
+ls
+gcc -p2read.c -o read -lrt
+gcc p2read.c -o read -lrt
+clear
+ls
+./read
+clear
+ls
+./read
+clear
+gcc recv.c -o recv -lrt
+ls
+gcc recv.c -o recv -lrt
+./recv
+./read
+ls
+./recv
+gcc recv.c -o recv -lrt
+./recv
+gcc recv.c -o recv -lrt
+./recv
+man shm_open
+man 2 open
+man shm_open
+man ftruncate
+clear
+man mmap
+ls
+cd sharedmem
+ls
+clear
+ls
+gcc p1write.c
+gcc p1write.c -lrt
+ls
+man ftrucncate
+man ftruncate
+gcc p1write.c -lrt
+clear
+ls
+rm -rf a.out
+ls
+clear
+gcc p1write.c -o write -lrt
+ls
+./write
+clear
+cd ..
+ls
+git status
+git add .
+git commit -m "shared memory"
+git push
+clear
+ls
+mkdir messageQ
+cd messageQ
+LS
+ls
+clear
+ls
+clear
+touh sender.c recv.c
+touch sender.c recv.c
+clear
+man mq_open
+ls
+clear
+ls
+gcc sender.c - o send 
+gcc sender.c -o send 
+gcc sender.c -o send -lrt
+clear
+ls
+./dend
+./send
+clear
+./send
+ls
+./send
+gcc sender.c -o send -lrt
+./send
+gcc sender.c -o send -lrt
+./send
+clear
+ls
+cd ..
+ls
+git status
+git add .
+git commit -m " message queue"
+git push
+ls
+git status
+git add .
+git commit -m "changed named utlity - assigment"
+git push
+ls
+clear
+ls
+cd ..
+ls
+sudo apt remove qemu
+ls
+cd emuk
+cd emux
+ls
+./buid-emux-docker 
+./buid-emux-docker
+ls
+./build-emux-docker
+sudo iptables -L
+cd ..
+rm -rf emux
+ls
+git clone --depth 1 --single-branch  https://github.com/therealsaumil/emux.git
+clear
+ls
+cd emux
+docker -version
+docker --version
+clear
+ls
+./build-emux-docker 
+./build-emux-volume
+./build-emux-docker 
+./build-emux-volume
+docker ps -a
+sudo usermod -aG docker ${USER}
+docker ps -a
+su - ${USER}
+docker ps -a
+cd emux
+cd Desktop
+ls
+cd emux
+ls
+./build-emux-docker
+./build-emux-volume
+./build-emux-docker
+./run-emux-docker
+cd workspace
+ls
+mkdir ma
+ls
+rm -rf ma
+ls
+cd arith
+ls
+cd arm
+ls
+chmod 0777 arithout
+la
+ls
+clear
+cd ..
+ls
+cd x86
+ls
+chmod 0777 arithout
+ls
+ls -al
+clear
+ls
+cd ..
+ls
+cd ..
+./emux-docker-shell 
+sudo usermod -aG docker ${USER}
+su - ${USER}
+cd ..
+cd emux
+ls
+cd workspace
+ls
+cd ..
+ls
+cd extras
+ls
+cd ..
+./run-emux-docker 
+cd ..
+cd emux
+ls
+./run-emux-docker 
+./run-emux-docker
+./build-emux-docker 
+sudo usermod -aG docker ${USER}
+su - ${USER}
+clear
+cd Desktop
+ls
+cd emux
+ls
+./emux-docker-shell 
+./build-emux-docker
+cd emux\
+cd emux
+cd Desktop
+clear
+cd emux
+ls
+./run-emux-docker 
+clear
+cd .
+cd ..
+ls
+sudo apt-get install qemu
+sudo apt-get install qemu-
+sudo apt-get install qemu-system-arm
+sudo apt-get install qemu*
+sudo apt-get install qemu-system-x86
+sudo apt-get install qemu-system
+qemu-
+qemu-clear
+clear
+cd Embedded-os
+ls
+clear
+cd sharedmem
+ls
+code struct.c
+code struc.c
+cd sharedmem
+ls
+cd ..
+mkdir sm&mq-assignment
+mkdir sm&mq_assignment
+mkdir sm-mq-assignment
+clear
+cs sm-mq-assignment
+cd sm-mq-assignment
+clear
+ls
+touch sm.c
+code sm.c
+mv sm.c sms.c
+ls
+code smr.c
+ls
+man sh_open
+man shm_open
+gcc sms.c -o sms -lrt
+clear
+gcc sms.c -o sms -lrt
+./sms
+gcc sms.c -o sms -lrt
+./sms
+gcc sms.c -o sms -lrt
+./sms
+gcc smr.c -o smr -lrt
+./smr
+ps -el
+ps
+clear
+gcc smr.c -o smr -lrt
+./smr
+gcc smr.c -o smr -lrt
+gcc sms.c -o sms -lrt
+./sms
+gcc sms.c -o sms -lrt
+./sms
+ls
+touch mqs.c mqr.c
+gcc mqs.c -o mqs -lrt
+ls
+./mqs
+gcc mqr.c -o mqr -lrt
+./mqr
+clea
+clear
+ls
+cd ..
+ls
+cd
+cd Desktop
+cd Embedded-os
+l
+ls
+git status
+git add .
+git commit -m "shared memory and message queue"
+git push
+clear
+ls
+git status
+git commit -m "shared memory and message queue"
+git push
+clear
+cd Desktop
+la
+ls
+cd emux
+cd ..
+cd emux
+git init
+git status
+lls
+ls
+cd ..\
+git status
+git clone https://github.com/amudalamadhusudhan/emux.git
+cd madhu
+git clone https://github.com/amudalamadhusudhan/emux.git
+git status
+clear
+cd emux
+git status
+git add .
+git commit -m "emux"
+git push
+clear
+ls
+code .
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+cd ..
+ls
+git clone https://source.denx.de/u-boot/u-boot.git
+ls
+cd u-boot
+ls
+ls arch/
+ls arch/arm
+ls arch/arm/cpu
+ls
+ls configs
+clear
+ls configs| grep arm
+make=ARCH=arm CROSS_COMPILE=arm-linux-gnuabi-menuconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnuabi-menuconfig
+clear
+ls
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-menuconfig
+ls configs| grep arm
+make ARCH=arm CROSS_COMPILE=aarch64-none-linux-gnu-m
+ls
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-menuconfig
+make ARCH=arm CROSS_COMPILE=aarch64-none-linux-gnu-menuconfig
+dirname --help
+clear
+ls
+ls arch
+ls arch/arm/
+ls configs/
+ls configs | grep arm
+make ARCH=arm CROSS_COMPILE=aarch64-none-linux-gnu-menuconfigs
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-menuconfig
+cd /bin/sh
+sudo apt-get install gcc-arm-linux-gnueabi 
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-menuconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-menuconfi
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-gcc
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
+sudo apt-get install gcc-arm-linux-gnueabi g++-arm-linux-gnueabi
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-menuconfig
+make ARCH=arm CROSS_COMPILE-menuconfig
+ake ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- qemu_arm_defconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- qemu_arm_defconfig
+cd ..
+cd Embedded-os
+ls
+cd sm-mq-assignment/
+ls
+cd sharedmemory/
+ls
+gcc sms.c -o sms -lrt
+./sms
+gcc sms.c -o sms -lrt
+./sms
+gcc sms.c -o sms -lrt
+./sms
+gcc sms.c -o sms -lrt
+./sms
+gcc sms.c -o sms -lrt
+./sms
+gcc sms.c -o sms -lrt
+./sms
+gcc sms.c -o sms -lrt
+./sms
+cd ..
+cd messagequeue/
+'s
+ls
+gcc mqs.c -o mqs -lrt
+./mqs
+gcc mqr.c -o mqr -lrt
+./mqr
+gcc mqr.c -o mqr -lrt
+./smr
+ls
+gcc smr.c -o smr -lrt
+./smr
+gcc smr.c -o smr -lrt
+./smr
+cd
+clear
+cd 
+clear
+ls
+cd workspace
+ls
+cd arith
+ls
+clear
+cd cd ..
+cd //
+cd
+cd Desktop
+ls
+cd emux
+ls
+./emux-docker-shell 
+clear
+su - ${USER}
+ls
+ls -al
+sudo apt-get install arm-linux-gnueabi-
+arm-linux-gnueabi-gcc-v
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-menuconfig
+ls config|grep qemu
+ls configs|grep qemu
+vi configs
+sudo apt-get update -y
+sudo apt-get install -y gcc-r-linux-gnueabi
+sudo apt-get install -y gcc -arm-linux-gnueabi
+sudo apt-get install -y gcc-arm-linux-gnueabi
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-j2
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
+cd ..
+cd emux
+ls
+cd workspace
+ls
+cd arith
+clear
+ls
+cd x86
+ls
+./arithout
+cat add.c
+cat main.c
+clear
+cd ..
+ls
+cd arm
+ls
+./arithout
+make clean
+clae
+clear
+make
+ls
+./arithout
+fiel ./arithout
+fiel arithout
+file arithout
+cleat
+clear
+ls
+code main.c
+gcc main.c
+./a.out
+clear
+ls
+rm -rf a.out arithout
+ls
+ar
+aarch64-none-linux-gnu-gcc main.c 
+ls
+clear
+ls
+./a.out
+arm-linux-gnueabi-gcc main.c
+clear
+ls
+./a.out
+arm-linux-gnueabi-gcc main.c -o arm
+ls -al
+chomd 0777 arm
+chmod 0777 arm
+ls -al
+arm-linux-gnueabi-gcc main.c -o m -static
+cd ..
+ls
+cd arm
+ls
+make clean
+ls
+rm -rf arm m a.out
+ls
+clar
+clear
+ls
+arm-linux-gnueabi-gcc main.c add.c -o m -static
+ls
+arm-linux-gnueabi-gcc main.c add.c -o m -static
+./m
+cd ..
+ls
+cd ..
+cd
+ls
+ls -al
+~/.bash_history
+cat .bash_history 
+cd ..
+cd+
+ls
+cd u-boot/
+ls
+clear
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-qemu_arm_defconfigs
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-qemu_arm_defconfig
+cd ..
+cd
+cd Desktop
+ls
+git clone <https://source.denx.de/u-boot/u-boot.git>
+git clone https://source.denx.de/u-boot/u-boot.git
+cd u-boot/
+ls
+ls -al
+clear
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-menuconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-qemu_arm_defconfig
+code make file
+ls
+cd arch/
+ls
+ls arm
+cd arm
+make
+cd ..
+cd configs
+ls
+make
+cd ..
+ls
+make
+git clone https://github.com/u-boot/u-boot.git
+ls
+cd u-boot
+ls
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-menuconfig
+clear
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-menuconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-qemu_arm_defconfig
+clear
+cd ..
+cd
+clear
+cd desktop
+cd Desktop
+ls
+cd Embedded-os
+ls
+cd sm-mq-assignment/
+ls
+cd sharedmemory/
+clear
+ls
+./sms
+gcc sms.c -o sms -lrt
+./sms
+clar\
+cd ..
+clear
+cd 
+clae
+clear
+qemu-system-arm --help
+clear
+qemu-system- --help
+qemu-system-arm --help
+clear
+qemu-system-arm -machine help
+clear
+cd Desktop
+ls
+cd emux
+ls
+./build-emux-docker
+sudo usermod -aG docker ${USER}
+su - ${USER}
+cd ..
+ls
+cd u-boot
+ls
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- qemu_arm_defconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- 
+qemu-system-arm -machine virt
+ls
+cat Makefile 
+clear
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-gcc 
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
+ls
+git clone https://github.com/u-boot/u-boot.git
+cd Desktop/emux
+ls
+./emux-docker-shel
+./emux-docker-shell
+clear
+cd Desktop
+cd emux
+ls
+./build-emux-docker 
+./run-emux-docker 
+clear
+cd ..
+clear
+ls
+cd madhu
+;s
+ls
+clear
+cd ..
+ls
+git clone https://source.denx.de/u-boot/u-boot.git
+cd u-boot
+ls
+.
+ls
+cd configs
+ls
+ls configs |wc
+ls config | wc
+cd ..
+ls
+ls configs | wc
+ls configs | grep arm
+ls
+ls board/
+ls board/r
+ls board/rasberrypi
+ls board/rasberrypi/
+cd board/rasberrypi
+cd board/rasberrypi/
+cd board/rasberrypi
+clear
+ls
+ls drivers
+ls net/
+clear
+arm-linux-gnueabi-gcc -v
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-menuconfig
+menuconfig
+sudo apt-get install menuconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-gcc menuconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-menuconfig
+sudo apt insatll flex
+sudo apt install flex
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-menuconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-menuconfigs
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-  menuconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
+sudo apt install ncurses-devel
+sudo apt install libncurses-dev
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install flex bison
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
+clear
+ls confifs | grep qemu
+ls configs | grep qemu
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- qemu_arm_defcomfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-qemu_arm_defcomfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- qemu_arm_defcomfig
+ls configd | grep arm
+ls configs | grep arm
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- qemu_arm_defconfig
+ls -al
+code .config
+gedit .config
+vim .config
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- -j8
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- qemu_arm_defconfig
+vim .config
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- -j8
+ls
+ls -al
+gedit .bash_history
+code .bash_history
+tmux
+sudo apt-get install tmux
+tmux
+./emux-docker-shell 
+cd Desktop
+cd EMux
+cd emux/
+clear
+./emux-docker-shell 
+ls
+qemu-system-arm 
+qemu-system-arm ---help
+qemu-system-arm --machine --help
+qemu-system-arm --machine help
+qemu-system-arm -machine virt -serial stdio -display none -bios u-boot.bin
+./u-boot
+file u-boot
+code Makefile
+make
+qemu-system-arm -machine virt -serial stdio -display none -bios u-boot.bin
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- -j8
+ls
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
+qemu-system-arm -machine virt -serial stdio -display none -bios u-boot.bin
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- clean
+ls -al
+ls
+make mrproper
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- mrproper
+clar
+clear
+ls
+qemu-system-arm -machine virt 
+cd Desktop
+ls
+cd emux
+./run-emux-docker 
+clear
+ls
+cd ..
+clear
+ls
+cd Embedded-os
+ls
+git status
+git add .
+git commit -m " assignments"
+git push
+git status
+git reset
+git status
+cd
+cd Desktop
+git clone https://github.com/amudalamadhusudhan/Embedded-os.git
+cd Embedded-os
+ls
+code README.md
+git status
+git add .
+git commit -m "sm mq assignment"
+git push
+clear
+LS
+ls
+clear
+ls
+clear
+ps
+kill all
+kill -9
+clear
+kill -9 -1
+gcc client.c
+sudo apt-get socket
+sudo apt-get install socket
+gcc client.c
+cleR
+clear
+ls
+gcc client.c -oc
+./c
+ls
+gcc client.c -oclient
+ls
+clear
+ls
+./client
+gcc client.c -oclient
+./client
+gcc client.c -oclient
+./client
+gcc client.c -oclient
+./client
+clear
+gcc client.c -oclient\
+gcc client.c -oclient
+./client
+gcc client.c -oclient
+./client
+clear
+ls
+cd ..
+ls
+git status
+git add .
+git commit -m "day 15 "
+git push
+clear
+ls
+clear
+ls
+ls sm-mq-assignment/
+ls sm-mq-assignment/messagequeue/
+clear
+mkdir sockets
+cd sockets
+touch client.c server.c
+nmap localhost
+mmap localhost
+sudo apt installnmap
+sudo apt install nmap
+mmap localhost
+nmap localhost
+sudo apt-get apache2
+sudo apt-get insatll apache2
+sudo apt-get install apache2
+nmap localhost
+sudo wireshark
+sudo apt-get install wireshark
+wireshark
+sudo apt remove wireshark
+clear
+man socket
+ls
+gcc server.c
+gcc clint.c
+ls
+gcc client.c
+man fopen
+man open
+gcc client.c
+clea
+clear
+ls
+gcc client.c
+sudo get-apt linux/in
+gcc client.c
+gcc server.c
+gcc server.c -o serve
+gcc server.c
+ls
+./a.out
+clear
+ls
+gcc server.c -o server
+ls
+./server
+gcc server.c -o server
+./server
+gcc server.c -o server
+./server
+ifconfig-a
+gcc server.c -o server
+./server
+gcc server.c -o server
+./server
+clear
+ls
+clear
+ls
+clear
+lsl
+ls
+cd ..
+clear
+ls
+git status
+git add .
+clear
+ls
+git commit -m "socket programing"
+git push
+clear
+ls
+duf
+duff
+sudo apt install duf
+sudo apt install duff
+duf -h
+duff
+sudo apt remove duff
+cd ..
+ls
+wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.18.tar.xz
+ls
+clear
+ls
+cd ..
+cd Download
+cd Downlod
+ls
+cd Downloads
+ls
+ls -al
+tar -xvf linux-5.18.tar.xz 
+cd ..
+cd Desktops
+ls
+clear
+cd Desktop
+ls
+cd linux-5.18/
+clear
+ls
+ls arch/
+ls arch/arm
+cd arm
+clear
+ls
+ls arm/
+ls arm
+ls
+ls arch/arm
+ls arch/arm/dr
+ls driver/
+ls drivers/
+ls ipc/
+clear
+cd ipc
+ls
+cat mqueue.c
+ls
+clear
+ls
+code .
+cd ..
+ls
+ls 
+ls cryptp
+cleat
+clear
+ls
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi mrproper
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- mrproper
+clear
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- clean
+clear
+ls
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- bcm2835_defconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
+ls
+ls -all
+clear
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- -j8
+ls
+ps -el
+ps -el | grep apache
+ls /
+ls 
+file vmlinux
+ls arch/arm/boot/
+ls arch/arm/boot/compressed/
+sixe vmlinux
+size vmlinux
+ls arch/arm/boot/compressed/dts
+ls arch/arm/boot/dts
+ls arch/arm/boot/dts/
+ls arch/arm/boot/dts/ grep dtb
+ls arch/arm/boot/dts/* grep -dtb
+ls arch/arm/boot/dts/* grep dtb
+ls arch/arm/boot/dts/* | grep dtb
+ls arch/arm/boot/dts/ | grep dtb
+qemu-system-arm -M raspi2 -m 512M -kernel arch/arm/boot/zImage -nographic -append "console=ttyAMA0,115200 root=/dev/mmcblk0p2 rootwait rw" -cpu cortex-a15 -dtb ./arch/arm/boot/dts/bcm2836-rpi-2-b.dtb
+kill all -9 qemu-systm-arm
+cd
+cd Desktop
+ls
+cd linux-5.18/
+ls
+clear
+ls
+cd ..
+ls
+rm -rf busybox-1.32.1.ter.bz2
+clear
+ls
+wget https://busybox.net/downloads/busybox-1.35.0.tar.bz2
+ls
+bunzip2 < busybox-1.35.0.tar.bz2 | tar xvf -
+ls
+cd busybox-1.35.0/
+ls
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- defconfig
+ls
+ls -al
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- -j8
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- insta
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- install
+ls
+ls _install/
+ls _install/bin
+ls _install/bin/cat
+file _install/bin/cat
+file _install/bin/busybox
+find . | cpio -o --format=newc > ../rootfs.img
+ls
+cd ..
+ls
+cd busybox-1.35.0/
+ls
+ls -al
+gzip -c rootfs.img > rootfs.img.gz
+ls -al
+cd ..\
+cd finalfiles
+cp ../linux-5.18/arch/arm/boot/zImage 
+cp ../linux-5.18/arch/arm/boot/zImage .
+cp ../linux-5.18/arch/arm/boot/dts/bcm
+cp ../linux-5.18/arch/arm/boot/dts/bcm2
+cp ../linux-5.18/arch/arm/boot/dts/bcm2836-rpi-2-b.dt .
+cp ../linux-5.18/arch/arm/boot/dts/bcm2836-rpi-2-b.dt.
+cp ../linux-5.18/arch/arm/boot/dts/bcm2836-rpi-2-b.dtb .
+cp ../busybox-1.35.0/rootfs.img.gz .
+ls
+qemu-system-arm -M raspi2 -m 512M -kernel zImage -nographic -append "console=ttyAMA0,115200" -cpu cortex-a15 -dtb bcm2836-rpi-2-b.dtb -initrd rootfs.img.gz -append "root=/dev/ram rdinit=/bin/sh"
+ls
+git status
+code .
+dif config
+difconfig
+ifconfig
+ifconfig -a
+ifconfig 
+sudo apt install net-tools
+ifconfig 
+cd ..
+qemu-system-arm -M raspi2 -m 512M -kernel zImage -nographic -append "console=ttyAMA0,115200" -cpu cortex-a15 -dtb bcm2836-rpi-2-b.dtb -initrd rootfs.img.gz -append "root=/dev/ram rdinit=/bin/sh"
+cd ..
+cd busybox-1.35.0/
+ls
+qemu-system-arm -M raspi2 -m 512M -kernel arch/arm/boot/zImage -nographic -append "console=ttyAMA0,115200 root=/dev/mmcblk0p2 rootwait rw" -cpu cortex-a15 -dtb ./arch/arm/boot/dts/bcm2836-rpi-2-b.dtb
+cd ..
+clear
+cd busybox-1.35.0/
+cd ..
+cd finalfiles/
+ls
+qemu-system-arm -M raspi2 -m 512M -kernel arch/arm/boot/zImage -nographic -append "console=ttyAMA0,115200 root=/dev/mmcblk0p2 rootwait rw" -cpu cortex-a15 -dtb ./arch/arm/boot/dts/bcm2836-rpi-2-b.dtb
+qemu-system-arm -M raspi2 -m 512M -kernel zImage -nographic -append "console=ttyAMA0,115200 root=/dev/mmcblk0p2 rootwait rw" -cpu cortex-a1 bcm2836-rpi-2-b.dtb
+qemu-system-arm -M raspi2 -m 512M -kernel arch/arm/boot/zImage -nographic -append "console=ttyAMA0,115200 root=/dev/mmcblk0p2 rootwait rw" -cpu cortex-a15 -dtb ./aO\rch/arm/boot/dts/bcm2836-rpi-2-b.dtb
+CLEAR
+clear
+git status
+git add .
+git commit -m "rfs and kernal and u-boot"
+git push
+cd ..
+cd u-boot
+ls
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- qemu_arm_defconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- 
+ls
+cd ..
+cd busybox-1.35.0/
+ls
+cd ..
+cd linux-5.18/
+ls
+cd ..
+cd Embedded-os
+l
+sls
+ls
+git status
+git add .
+git commit -m " rfs kernal u-boot files"
+git push
+git fetch
+./read
+ls
+./read
+./write
+code .
+qemu
+qemu-img 
+clear
+ls
+cd linux-5.18/
+ls
+cd ..
+cd u-boot/
+ls
+cd ..
+cd busybox-1.35.0/
+ls
+cd ..
+cd finalfiles/
+qemu-system-arm -M raspi2 -m 512M -kernel zImage -nographic -append "console=ttyAMA0,115200" -cpu cortex-a15 -dtb bcm2836-rpi-2-b.dtb -initrd rootfs.img.gz -append "root=/dev/ram rdinit=/bin/sh"
+cd finalfiles/
+ls
+qemu-system-arm -M help
+CONFIG_PCI=y
+CONFIG_VIRITO_PCI=y
+CONFIG_PCI_HOST_GENERIC=y
+qemu-system-arm -m 512M -M virt -zImage -append "console=ttyAMA0,115200" -cpu cortex-a15 -dtb bcm2836-rpi-2-b.dtb -initrd rootfs.img -append "root=/dev/ram rdinit=/bin/sh"
+qemu-system-arm -m 512M -M virt -zImage -append "console=ttyAMA0,115200" -cpu cortex-a15 -dtb bcm2836-rpi-2-b.dt
+qemu-system-arm -M virt -m 512M -kernel zImage -nographic -append "console=ttyAMA0,115200" -cpu cortex-a15 -dtb bcm2836-rpi-2-b.dtb -initrd rootfs.img.gz -append "root=/dev/ram rdinit=/bin/sh"
+ls
+cd finalfiles/
+ls
+qemu-system-arm -M raspi2 -m 512M -kernel zImage -nographic -append "console=ttyAMA0,115200" -cpu cortex-a15 -dtb bcm2836-rpi-2-b.dtb -initrd rootfs.img -append "root=/dev/ram rdinit=/bin/sh"
+kill -9 qemu
+clea
+r
+cd ..
+code .
+cd finalfiles/
+ls
+qemu-system-arm -M virt -m 512 -kernal zImage
+qemu-system-arm -M virt -m 512 -zImage
+qemu-system-arm -M virt -m 512M -kernal vmlinux 
+qemu-system-arm -M virt -m 512M -kernal vmlinux initrd rootfs.img.gz -append "root=/dev/ram"
+qemu-system-arm -M virt -m 512M -kernal vmlinux initrd rootfs.img.gz -append "root=/dev/ram" -no-reboot
+qemu-system-arm -M virt -m 512
+qemu-system-arm --help
+qemu-system-arm -M virt zImage
+ls
+qemu-system-arm -M virt vmlinux
+qemu-system-arm -M versatilepb -cpu arm1176 -kernel kernel-qemu-4.14.50-stretch -dtb versatile-pb.dtb -append "root=800 init=/bin/ash console=tty1" \
+qemu-system-arm -M versatilepb -cpu cortex-a15 -kernal zImage -dtb bcm2836-rpi-2-b.dtb -append "root=800 init=/bin/ash console=tty1" -drive file = rootfs,img.gz,format=raw
+qemu-system-arm -M virt -cpu cortex-a15 -kernal zImage -dtb bcm2836-rpi-2-b.dtb -append "root=800 init=/bin/ash console=tty1" -drive file = rootfs,img.gz,format=raw
+clear.
+clear
+ls
+cd Desktio
+cd Desktop
+ls
+gedit ma.c
+gedit file.c
+clear
+ls
+gcc -E fil.c 
+gcc -E file.c 
+gcc -E file.c -o file.i
+ls
+gcc -S file.c -o file.s
+ls
+gcc -S file.i -o file.s
+ls
+
+rm -r file.s
+ls
+gcc -S file.i -o file.s
+gcc -C file.s -o file.o
+gcc file.o -o file
+gcc file.c
+gcc file.o
+ls
+gcc -c file.c -o file
+gcc -c file.c -o file.o
+ls
+gcc file.o -o file
+ls
+gcc -c file.s -o file.o
+gcc file.o -o file
+ls
+./file
+rm -rf file.o file.i file.s
+gcc -E file.c -o file.i
+ls
+gcc -s file.i -o file.s
+gcc -c file.s -o file.o
+gcc -S file.i -o file.s
+gcc -c file.s -o file.o
+cat file.s
+gcc -c file.s -o file.o
+gcc file.o -o file
+./file
+ls
+rm -rf file.i file.o
+ls
+rm -rf file.i file.o file.s
+ls
+rm -r fie
+rm -rf file
+gcc -E file.c -o file.i 
+gcc -S file.i -o file.s 
+gcc -c file.s -o file.o 
+gcc file.o -o file
+./file
+ls
+\n
+clea
+clear
+ls
+snap insatll rpi-imager
+snap install rpi-imager
+rpi-imager
+snap install rpi-imager
+rpi-imager
+sudo apt-get install --reinstall udisk2
+sudo apt-get install --reinstall udisk
+sudo apt-get install udisk
+rpi-imager
+lsusb
+wnic
+wmic
+clear
+ls
+./file
+clear
+ls
+cd linux-5.18/
+ls
+clesr
+clear
+ls
+cd ..
+ls
+lsusb
+ri-imager
+rpi-imager
+
