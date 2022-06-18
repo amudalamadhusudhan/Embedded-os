@@ -450,7 +450,7 @@
   - Transport => TCP/ UDP => Port Number (16 bit number)
   - Application => HTTP/ FTP/ SSH/ Telnet
 
-- U-Boot
+- # U-Boot
 
   - git clone <https://source.denx.de/u-boot/u-boot.git>
   - ls configs
