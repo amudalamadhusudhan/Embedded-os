@@ -8,7 +8,7 @@ make: *** Makefile: Is a directory.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun 18 11:48:59 2022
+# Make data base, printed on Tue Jun 21 11:45:05 2022
 
 # Variables
 
@@ -47,7 +47,7 @@ VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:48168
+JOURNAL_STREAM = 8:401444
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'Makefile', line 1)
@@ -61,13 +61,13 @@ USERNAME = madhusudhan
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=190af8dd2ea9462fd8110dd562ad910c
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
 _ = /usr/bin/code
 # environment
-MANAGERPID = 1359
+MANAGERPID = 241058
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -79,7 +79,7 @@ PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/madhusudhan:@/tmp/.ICE-unix/1584,unix/madhusudhan:/tmp/.ICE-unix/1584
+SESSION_MANAGER = local/madhusudhan:@/tmp/.ICE-unix/241281,unix/madhusudhan:/tmp/.ICE-unix/241281
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -89,7 +89,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 8c14793c3cef4078965a7c0e50b9ab5b
+INVOCATION_ID = bc200eddbcc54695bbd031c4fe26583e
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -109,7 +109,7 @@ PWD = /home/madhusudhan/Desktop/Embedded-os
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1546
+SSH_AGENT_PID = 241243
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -151,7 +151,7 @@ SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-54e44f3f-6df2-429d-9fb9-2c4318204364.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-5ce0cbb0-649f-4c2c-bb6c-61da3cbfa7f5.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -164,8 +164,6 @@ XDG_CURRENT_DESKTOP = Unity
 %D = $(patsubst %/,%,$(dir $%))
 # default
 MAKE_COMMAND := make
-# environment
-OLDPWD = /home/madhusudhan/Desktop
 # default
 .VARIABLES := 
 # automatic
@@ -187,6 +185,8 @@ GDK_BACKEND = x11
 # automatic
 +F = $(notdir $+)
 # environment
+NO_AT_BRIDGE = 1
+# environment
 QT_ACCESSIBILITY = 1
 # default
 MAKEFILES := 
@@ -195,11 +195,13 @@ MAKEFILES :=
 # environment
 LC_ALL = C
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/7115b3c4_3313_465d_914a_2447d76c2084
+DBUS_STARTER_BUS_TYPE = session
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/97ad26e2_b93f_44e3_a227_52e9d2eadc01
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.279
+GNOME_TERMINAL_SERVICE = :1.1131
 # default
 SUFFIXES := 
 # environment
@@ -215,9 +217,11 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 19899
+VSCODE_PID = 586694
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=190af8dd2ea9462fd8110dd562ad910c
 # variable set hash-table stats:
-# Load=102/1024=10%, Rehash=0, Collisions=12/115=10%
+# Load=104/1024=10%, Rehash=0, Collisions=12/117=10%
 
 # Pattern-specific Variable Values
 
@@ -225,9 +229,9 @@ VSCODE_PID = 19899
 
 # Directories
 
-# . (device 66310, inode 1578367): 44 files, no impossibilities.
+# . (device 66310, inode 1578367): 46 files, no impossibilities.
 
-# 44 files, no impossibilities in 1 directories.
+# 46 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -262,12 +266,12 @@ Makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 49 / storage = 483 B / avg = 9 B
-# current buf: size = 8162 B / used = 483 B / count = 49 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 51 / storage = 533 B / avg = 10 B
+# current buf: size = 8162 B / used = 533 B / count = 51 / avg = 10 B
 
-# strcache performance: lookups = 53 / hit rate = 7%
+# strcache performance: lookups = 55 / hit rate = 7%
 # hash-table stats:
-# Load=49/8192=1%, Rehash=0, Collisions=1/53=2%
-# Finished Make data base on Sat Jun 18 11:48:59 2022
+# Load=51/8192=1%, Rehash=0, Collisions=1/55=2%
+# Finished Make data base on Tue Jun 21 11:45:05 2022
 
  
